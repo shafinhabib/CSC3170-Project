@@ -148,8 +148,13 @@
 					
 										{% for post in user_posts %}
 										<li>
+											{% if post.image %}
 											<a class="strip" href="{{post.image.url}}" title="" data-strip-group="mygroup" data-strip-group-options="loop: false">
 												<img src="{{post.image.url}}" style="height: 250px; width: 300px;" alt=""></a>
+											{% else %}
+											<div class="placeholder-image">
+												<img src="" alt="Blank Image">
+											{% endif %}
 										</li>
 										{% endfor %}
 										
