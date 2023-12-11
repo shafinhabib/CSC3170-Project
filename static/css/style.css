@@ -207,7 +207,7 @@ section {
 }
 
 .pattern:before {
-    background: pink url("../images/dot-pattern.png") repeat scroll 0 0;
+    background: #50ac54 url("../images/dot-pattern.png") repeat scroll 0 0;
     opacity: 0.45;
 }
 
@@ -216,7 +216,7 @@ section {
 }
 
 .bluesh:before {
-    background: pink;
+    background: #50ac54;
 }
 
 .exthigh-opacity:before {
@@ -425,7 +425,7 @@ iframe {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: pink;
+    background: #50ac54;
     color: #000;
     transition: all 0.4s;
     transform: rotate(-15deg);
@@ -436,7 +436,7 @@ iframe {
     transform: rotate(0);
     background: #000;
   transition: 1s;
-  color: pink;
+  color: #50ac54;
 }
 
 
@@ -748,12 +748,12 @@ header.sticky {
 }
 
 .user-avatar {
-    border: 2px solid pink;
+    border: 2px solid #50ac54;
     border-radius: 10px;
     border-right-color: #4680ff;
     border-top-color: #4680ff;
-    border-left-color: pink;
-    box-shadow: 0 1px 0 pink;
+    border-left-color: #50ac54;
+    box-shadow: 0 1px 0 #50ac54;
     float: right;
     margin-top: -168px;
     overflow: hidden;
@@ -770,13 +770,13 @@ header.sticky {
     position: relative;
 }
 
-.timeline-info {
+/* .timeline-info {
     background: ##b0b3b8 none repeat scroll 0 0;
     display: block;
     line-height: 59px;
     width: 100%;
     color: #000;
-}
+} */
 
 .timeline-info > ul {
     display: inline-block;
@@ -818,7 +818,7 @@ header.sticky {
 }
 
 .timeline-info .admin-name > h5 {
-    color: pink;
+    color: #50ac54;
     display: inline-block;
     font-size: 24px;
     font-weight: 500;
@@ -873,7 +873,7 @@ header.sticky {
 }
 
 .edit-phto:hover {
-    background: pink;
+    background: #50ac54;
     border: 1px solid;
     color: #000;
 }
@@ -1091,7 +1091,7 @@ header.sticky {
 }
 
 .add-btn > a:hover {
-    border: 1px solid pink;
+    border: 1px solid #50ac54;
     background-color: transparent !important;
     color: #000 !important;
 
@@ -1103,8 +1103,8 @@ header.sticky {
     display: inline-block;
     font-size: 14px;
     padding: 4px 20px;
-    border: 1px solid pink;
-    background-color: pink !important;
+    border: 1px solid #50ac54;
+    background-color: #50ac54 !important;
 
 }
 
@@ -1170,7 +1170,7 @@ header.sticky {
     left: 20px;
     position: absolute;
     width: 20%;
-    background: pink !important;
+    background: #50ac54 !important;
 }
 
 .sidebar .widget li {
@@ -1262,7 +1262,7 @@ header.sticky {
 
 .central-meta {
     background: #fff none repeat scroll 0 0;
-    /*border: 1px solid pink;*/
+    /*border: 1px solid #50ac54;*/
     border-radius: 10px;
     box-shadow: 0 0 12px 2px rgba(0, 0, 0, .5);
     display: inline-block;
@@ -2877,7 +2877,7 @@ li.google {
 }
 
 .g-map::before {
-    background: pink none repeat scroll 0 0;
+    background: #50ac54 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -2895,7 +2895,7 @@ li.google {
 }
 
 .map-meta {
-    background: pink none repeat scroll 0 0;
+    background: #50ac54 none repeat scroll 0 0;
     color: #000;
     left: 10%;
     padding: 20px;
@@ -4525,11 +4525,11 @@ canvas {
 
 .central-meta button.btn-view {
     background: #000;
-    color: pink !important;
+    color: #50ac54 !important;
 }
 
 .btn-view.btn-load-more::before {
-    color: pink;
+    color: #50ac54;
     content: "\f01e";
     font-family: fontawesome;
     left: 50%;
@@ -6695,7 +6695,7 @@ a.reply {
 }
 
 .menu-container {
-    background-color: pink;
+    background-color: #50ac54;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;

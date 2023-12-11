@@ -1048,8 +1048,8 @@ button.uk-icon:not(:disabled) {
  */
 .uk-form-danger,
 .uk-form-danger:focus {
-  color: #f0506e;
-  border-color: #f0506e;
+  color: #50ac54;
+  border-color: #50ac54;
 }
 /*
  * Success
@@ -1521,20 +1521,20 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-button-danger {
-  background-color: #f0506e;
+  background-color: #50ac54;
   color: #fff;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uk-button-danger:hover,
 .uk-button-danger:focus {
-  background-color: #ee395b;
+  background-color: #50ac54;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
-  background-color: #ec2147;
+  background-color: #50ac54;
   color: #fff;
 }
 /*
@@ -2838,7 +2838,7 @@ select.uk-form-width-xsmall {
  */
 .uk-alert-danger {
   background: #fef4f6;
-  color: #f0506e;
+  color: #50ac54;
 }
 /*
      * Content
@@ -2926,7 +2926,7 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-label-danger {
-  background-color: #f0506e;
+  background-color: #50ac54;
   color: #fff;
 }
 /* ========================================================================
@@ -5571,7 +5571,7 @@ ul.uk-nav-sub {
  * Danger
  */
 .uk-notification-message-danger {
-  color: #f0506e;
+  color: #50ac54;
 }
 /* ========================================================================
    Component: Tooltip
@@ -6817,7 +6817,7 @@ ul.uk-nav-sub {
   color: #faa05a !important;
 }
 .uk-text-danger {
-  color: #f0506e !important;
+  color: #50ac54 !important;
 }
 /* Background modifier
  ========================================================================== */
