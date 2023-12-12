@@ -40,3 +40,30 @@ class FollowersCount(models.Model):
 
     def __str__(self):
         return self.user
+    
+
+class Message(models.Model):
+    """Message"""
+    user = models.ForeignKey(User,on_delete=models.CASCADE,null=True,verbose_name='用户')
+    message = models.TextField(verbose_name='Message')
+    add_time = models.DateTimeField(verbose_name='time',default=datetime.now)
+
+    class Meta:
+        verbose_name = 'Message'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.message
+
+class Category(models.Model):
+    name = models.CharField(verbose_name='doc classification',max_length=20)
+    add_time = models.DateTimeField(verbose_name='Createtime',default=datetime.now)
+    edit_time = models.DateTimeField(verbose_name='Modifytime',default=datetime.now)
+
+    class Meta:
+        verbose_name = 'doc classification'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.name
+
